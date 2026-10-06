@@ -1,0 +1,4 @@
+honest_published,honest_committed_no_attack,poison_published,poison_committed,honest_committed_under_attack,pubsub_poison_accepted,strict_honest_committed_no_attack,strict_poison_committed,strict_honest_committed_under_attack,block_latency_s_mean
+39,38,50,3,38,50,37,0,37,0.12041515400051139
+39,38,50,3,38,50,37,0,37,0.11644838800020807
+39,38,50,3,38,50,37,0,37,0.11253748800027097

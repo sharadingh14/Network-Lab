@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+xgboost>=2.0
+cryptography>=42
+psutil>=5.9
+pyyaml>=6.0
+matplotlib>=3.8

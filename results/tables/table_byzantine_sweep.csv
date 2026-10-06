@@ -1,0 +1,15 @@
+policy,malicious_validators,poison_committed,honest_committed
+quorum,0,3,38
+quorum,1,50,39
+quorum,2,50,39
+quorum,3,50,39
+quorum,4,50,39
+quorum,5,50,39
+quorum,6,50,39
+strict,0,0,37
+strict,1,0,38
+strict,2,3,38
+strict,3,3,38
+strict,4,3,38
+strict,5,50,39
+strict,6,50,39

@@ -1,0 +1,8 @@
+Mode,foreign_recall,recall,precision,f1,FAR
+No sharing,26.999,40.953,98.385,51.187,0.490
+Publish-subscribe,98.554,98.499,99.667,99.078,0.632
+"Ledger, 2f+1 policy",93.125,93.727,99.711,96.568,0.514
+"Ledger, n-f policy",93.068,93.687,99.716,96.549,0.504
+"Publish-subscribe, poisoned",98.554,98.499,83.864,90.107,43.647
+"Ledger 2f+1, poisoned",93.125,93.727,99.500,96.468,0.924
+"Ledger n-f, poisoned",93.068,93.687,99.716,96.549,0.504

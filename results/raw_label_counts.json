@@ -1,0 +1,32 @@
+{
+ "02-14-2018": {
+  "Benign": 667626,
+  "FTP-BruteForce": 193360,
+  "SSH-Bruteforce": 187589
+ },
+ "02-15-2018": {
+  "Benign": 996077,
+  "DoS attacks-GoldenEye": 41508,
+  "DoS attacks-Slowloris": 10990
+ },
+ "02-16-2018": {
+  "DoS attacks-Hulk": 461912,
+  "Benign": 446772,
+  "DoS attacks-SlowHTTPTest": 139890
+ },
+ "02-21-2018": {
+  "DDOS attack-HOIC": 686012,
+  "Benign": 360833,
+  "DDOS attack-LOIC-UDP": 1730
+ },
+ "02-22-2018": {
+  "Benign": 1048213,
+  "Brute Force -Web": 249,
+  "Brute Force -XSS": 79,
+  "SQL Injection": 34
+ },
+ "03-02-2018": {
+  "Benign": 762384,
+  "Bot": 286191
+ }
+}

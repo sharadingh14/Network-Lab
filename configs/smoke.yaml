@@ -1,0 +1,25 @@
+# Tiny configuration used only to check that the code runs end to end (synthetic fixture data).
+seed_list: [11]
+data:
+  raw_dir: data/fixture
+  days: ["02-14-2018", "02-15-2018", "02-16-2018", "02-21-2018", "02-22-2018", "03-02-2018"]
+  max_benign_per_day: 3000
+  max_attack_per_label: 800
+  split: {train: 0.60, signature_window: 0.20, eval: 0.20}
+  drop_columns: ["Flow ID", "Src IP", "Src Port", "Dst IP", "Timestamp"]
+  exclude_from_ml: ["Dst Port"]
+ga: {population: 6, generations: 3, tournament_size: 3, crossover_rate: 0.8, mutation_rate: null, elitism: 1,
+     feature_penalty: 0.002, validation_fraction: 0.25, fitness_model: {n_estimators: 10, max_depth: 8}, fitness_subsample: 3000}
+ensemble:
+  mlp: {hidden_layer_sizes: [32], alpha: 0.0001, learning_rate_init: 0.001, max_iter: 10, early_stopping: true, batch_size: 256}
+  xgb: {n_estimators: 20, max_depth: 4, learning_rate: 0.1, subsample: 0.8, colsample_bytree: 0.8, tree_method: hist}
+  rf: {n_estimators: 20, max_depth: null, min_samples_leaf: 1, n_jobs: -1}
+  vote: hard
+signatures:
+  key_fields: ["Tot Fwd Pkts", "Tot Bwd Pkts", "TotLen Fwd Pkts", "TotLen Bwd Pkts", "Init Fwd Win Byts"]
+  max_bin: 24
+  min_support: 5
+  validator_benign_tolerance: 0.0005
+ledger: {validators: 4, batch_size: 50, base_port: 47000}
+poisoning: {n_poison_signatures: 10}
+overhead: {validator_counts: [4], tx_counts: [10, 100], repetitions: 1}

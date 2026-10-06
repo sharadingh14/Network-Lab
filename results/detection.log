@@ -1,0 +1,3 @@
+11 {'MLP_all': 0.9824, 'XGBoost_all': 0.9932, 'RandomForest_all': 0.9863, 'ensemble_all': 0.9892, 'hybrid_all': 0.9916, 'MLP_ga': 0.9827, 'XGBoost_ga': 0.979, 'RandomForest_ga': 0.9688, 'signature_only': 0.9409, 'ensemble_ga': 0.9742, 'hybrid_ga': 0.9867}
+23 {'MLP_all': 0.9931, 'XGBoost_all': 0.9946, 'RandomForest_all': 0.986, 'ensemble_all': 0.9948, 'hybrid_all': 0.996, 'MLP_ga': 0.9896, 'XGBoost_ga': 0.9951, 'RandomForest_ga': 0.9925, 'signature_only': 0.9409, 'ensemble_ga': 0.9953, 'hybrid_ga': 0.9959}
+47 {'MLP_all': 0.9878, 'XGBoost_all': 0.9925, 'RandomForest_all': 0.9865, 'ensemble_all': 0.994, 'hybrid_all': 0.9953, 'MLP_ga': 0.9838, 'XGBoost_ga': 0.9903, 'RandomForest_ga': 0.9915, 'signature_only': 0.9409, 'ensemble_ga': 0.9903, 'hybrid_ga': 0.9911}

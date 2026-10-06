@@ -1,0 +1,5 @@
+{'rows_with_conflicting_labels_removed': 459, 'train_rows': 282975, 'sigwin_rows': 90218, 'eval_rows': 90376}
+
+real	2m47.908s
+user	1m50.990s
+sys	0m55.373s
